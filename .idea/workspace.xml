@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37c0725d-2d43-49cc-810b-7952c2a8d7ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABSANCE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/Coefficient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/Connexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/JpaConnexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/config/ConfigConnexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/config/ConnexionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/config/JpaConfigConnexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/dao/jpa/DaoEnseignant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/dao/jpa/DaoEtudiant .java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/dao/jpa/DaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/dao/jpa/DaoFabrique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/dao/jpa/DaoFiliere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/dao/jpa/DaoGenerique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/dao/jpa/DaoInscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/dao/jpa/JpaDaoCoefficient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/dao/jpa/JpaDaoCours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/dao/jpa/TestDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/es/mail/MailSSL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/bd/es/mail/TestSendMailSSL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/es/tableur/ExcelImport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/es/tableur/ExportExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/es/tableur/ImportExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/es/tableur/TestExportExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/controleur/es/tableur/TestImportExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/modele/Cours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/modele/Enseignant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/modele/Etudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/modele/Filiere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/modele/Inscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/modele/Personne .java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/test/JpaDaoCoefficientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/test/JpaDaoCoursTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/test/JpaDaoEnseignantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/test/JpaDaoEtudiantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/test/JpaDaoFiliereTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/test/JpaDaoInscriptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/test/TestEnvironment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/EtudiantTableModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetreAPropos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetreAjoutCours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetreAjoutEleve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetreAjoutFiliere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetreCommune.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetreExportExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetreGestionEnseignants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetreImportExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetreMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetrePreferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetrePremiere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetrePrincipale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/FenetreStatistiqueEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/ObjetLigneInscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/ObjetLigneMoyenneEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/PanelAjoutCours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/PanelAjoutEleve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/PanelGestionEnseignant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/PanelStatistiqueEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/PanelStatistiqueFiliere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/PanneauGauchePrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/unice/hmabwe/vue/PanneauListeEtudiants.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KBwJFarUy1dLdNZ2jhiSp8zJEI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/java/ABSANCE"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37c0725d-2d43-49cc-810b-7952c2a8d7ac" name="Changes" comment="" />
+      <created>1673461212321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673461212321</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
